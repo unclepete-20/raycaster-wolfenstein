@@ -228,7 +228,7 @@ class Raycaster (object):
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_r:
                         intro = False
-                        self.game_intro()
+                        self.game_start()
 
             self.gameDisplay.fill(self.LOSE)
             
